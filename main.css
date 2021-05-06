@@ -2,14 +2,12 @@
 body {
     display: flex;
     background-image: url(images/beautiful-wallpaper-download-11.jpg);
-    font-size: 40;
-    border: red solid 5px;
+    font-size: 30;
     object-fit: cover;
 }
 
 #navigationContainer{
     display: flex;
-    border: mintcream solid 7px;
     align-items: center;
     text-transform: capitalize;
 }
@@ -17,23 +15,24 @@ body {
 
 #navigationContainer img {
     display: flex;
+    width: 50%;
+    height: 60vh;
     border: turquoise solid 4px;
-    object-position: 50%, 50%;
 
 }
 
 #navbar{
     list-style: none;
     display: flex;
-    position: relative
+    position: relative;
+    text-align: center;
+    justify-content: space-between
 }
 
-#homestyle{
-    width: 50px
+
+.formContainer{
+    display: flex;
+    border: black solid 7px;
+    align-content: center;
+    align-items: center;
 }
-
-
-
-
-
-
