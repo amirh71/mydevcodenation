@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    background-image: url(images/beautiful-wallpaper-download-11.jpg);
+    font-size: 40;
+    border: red solid 5px;
+    object-fit: cover;
+}
+
+#navigationContainer{
+    display: flex;
+    border: mintcream solid 7px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+
+#navigationContainer img {
+    display: flex;
+    border: turquoise solid 4px;
+    object-position: 50%, 50%;
+
+}
+
+#navbar{
+    list-style: none;
+    display: flex;
+    position: relative
+}
+
+#homestyle{
+    width: 50px
+}
+
+
+
+
+
+
